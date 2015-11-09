@@ -1,5 +1,5 @@
 body {
-    font-family:"lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    font-family: "lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
     font-size: 18px;
 }
 
@@ -27,7 +27,6 @@ H2 {
     color: #666666;
 }
 
-
 H3 {
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, Helvetica, STKaiti, SimSun, serif;
     margin-top: 40px;
@@ -36,7 +35,6 @@ H3 {
     line-height: 150%;
     color: #666666;
 }
-
 
 H4 {
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, Helvetica, STKaiti, SimSun, serif;
@@ -48,18 +46,15 @@ H4 {
     color: #666666;
 }
 
-
 li {
     margin-left: 10px;
 }
-
 
 blockquote {
     border-left: 4px lightgrey solid;
     padding-left: 5px;
     margin-left: 20px;
 }
-
 
 pre {
     font-family: Inconsolata, Consolas, "DEJA VU SANS MONO", "DROID SANS MONO", Proggy, monospace;
@@ -72,16 +67,14 @@ pre {
     width: 95%;
 }
 
-
 code {
     font-family: Inconsolata, Consolas, "DEJA VU SANS MONO", "DROID SANS MONO", Proggy, monospace;
     font-size: 90%;
 }
 
 a:hover {
-	background-color: LightGrey;
+    background-color: LightGrey;
 }
-
 
 img {
     width: 100%;
@@ -95,13 +88,14 @@ img {
     -webkit-box-shadow: 0 0 10px #555;
 }
 
-
 hr {
     color: LightGrey;
 }
 
 #outline-container-sec- {
-    margin: 0 auto;
-    max-width: 700px;
+    margin: 70px auto 0;
+    padding: 5px 30px;
+    max-width: 760px;
     text-align: justify;
+    border: 1px solid LightGrey;
 }
