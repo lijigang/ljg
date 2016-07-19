@@ -2,13 +2,13 @@ from http://www.yinwang.org
 
 delete your index.org
 
-git clone https://github.com/venmos/org-page-theme-wy.git
+git clone https://github.com/lijigang/ljg 
 
-cp -r org-page-theme-wy ~/.emacs.d/elpa/org-page-xxxx.xx/themes/ or ln -s ~/Github/org-page-theme-wy ~/.emacs.d/elpa/org-page-xxxx.xx/themes/org-page-theme-wy
+cp -r ljg ~/.emacs.d/elpa/org-page-xxxx.xx/themes/ or ln -s ~/Github/ljg ~/.emacs.d/elpa/org-page-xxxx.xx/themes/ljg
 
 change org-page config
 
-add (setq op/theme 'org-page-theme-wy)
+add (setq op/theme 'ljg)
 
 [[file:1.png]]
 
