@@ -6,6 +6,19 @@
         <span title="author" class="post-info">{{author}}</span>
     </aside>
 {{/show-meta-info}}
+
+{{#google-analytics}}
+    <script>
+     var _hmt = _hmt || [];
+     (function() {
+         var hm = document.createElement("script");
+         hm.src = "https://hm.baidu.com/hm.js?{{google-analytics-id}}";
+         var s = document.getElementsByTagName("script")[0];
+         s.parentNode.insertBefore(hm, s);
+     })();
+    </script>
+{{/google-analytics}}
+
 <footer id="footer">
     <br />
 </footer>
