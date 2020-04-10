@@ -8,8 +8,8 @@
 
 * 安装
 
-1. 下载到本地: git clone https://github.com/lijigang/ljg ~/ljg
-2. 软链接到 org-page 的目录: ln -s ~/ljg  ~/.emacs.d/elpa/org-page-xxxx.xx/themes/ljg
+1. 切换到 org-page 目录: cd ~/.emacs.d/elpa/org-page-xxxx.xx/themes
+2. 下载到本地: git clone https://github.com/lijigang/ljg
 3. 配置 org-page 的主题变量: (setq op/theme 'ljg)
 
 Done
