@@ -1,15 +1,25 @@
-from http://www.yinwang.org
 
-delete your index.org
+[[https://github.com/sillykelvin/org-page][Org-page]] 的博客主题, 参考借鉴自 [[http://www.yinwang.org][王垠的博客]].
 
-git clone https://github.com/lijigang/ljg 
+* 效果
+#+begin_export html
+<img
+  src="images/index.png"
+  width="70%"
+/>
+#+end_export
 
-cp -r ljg ~/.emacs.d/elpa/org-page-xxxx.xx/themes/ or ln -s ~/Github/ljg ~/.emacs.d/elpa/org-page-xxxx.xx/themes/ljg
+#+begin_export html
+<img
+  src="images/post.png"
+  width="70%"
+/>
+#+end_export
 
-change org-page config
+* 安装
 
-add (setq op/theme 'ljg)
+1. 下载到本地: git clone https://github.com/lijigang/ljg ~/ljg
+2. 软链接到 org-page 的目录: ln -s ~/ljg  ~/.emacs.d/elpa/org-page-xxxx.xx/themes/ljg
+3. 配置 org-page 的主题变量: (setq op/theme 'ljg)
 
-[[file:1.png]]
-
-[[file:2.png]]
+Done
