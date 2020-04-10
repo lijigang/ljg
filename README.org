@@ -2,19 +2,9 @@
 [[https://github.com/sillykelvin/org-page][Org-page]] 的博客主题, 参考借鉴自 [[http://www.yinwang.org][王垠的博客]].
 
 * 效果
-#+begin_export html
-<img
-  src="images/index.png"
-  width="70%"
-/>
-#+end_export
+[[file:images/index.png]]
 
-#+begin_export html
-<img
-  src="images/post.png"
-  width="70%"
-/>
-#+end_export
+[[file:images/post.png]]
 
 * 安装
 
